@@ -1,38 +1,93 @@
 .App {
   text-align: center;
 }
+/* .img{
+  display: inline-block;
+  width: 50px;
+  height:100px;
+} */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+#products + a {
+  display: block!important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#products .caption h4 a {
+  display: inline-block!important;
+}
+#product {
+  background:none!important;
+   border:none; 
+   padding:0!important;
+  /*optional*/
+  font-family:arial,sans-serif; /*input has OS specific font-family*/
+   color:#069;
+   text-decoration:none;
+}
+ /* .productImage{
+  padding-left:100px !important;
+}  */
+#image{
+  background:none!important;
+  border:none; 
+  margin:0px!important;
+  
+ /*optional*/
+ font-family:arial,sans-serif; /*input has OS specific font-family*/
+  color:#069;
+  text-decoration:none;
+ text-align: justify;
+}
+.boldness button {
+  text-decoration: none!important;
+}
+.navbar {
+  background-color: #00cc99 !important;
+  text-align: center;
+  padding-top: 0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navbar-brand {
+  color: white !important;
+  font-weight: bold;
+  font-size: 20px;
+  font-style: italic;
+}
+.container{
+  margin-top: 10px;
+}
+.newarrival{
+  background: green;
+  width: 50px;
+  color:white;
+  font-size:12px;
+  font-weight: bold;
+}
+.col-md-7 h2{
+  color:red;
+}
+.stars{
+  height: 40px;
+  float: left;
+}
+.jumbo {
+  /* padding:70px 30px 70px 30px; */
+  margin:0px;
+  background: #9575CD ;
+  color:floralwhite;
+}
+.display-3{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.vl {
+  border-top: 5px solid black;
+  border-right: 5px solid black;
+  height: 1000px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* #search{
+  margin-top: 0px;
+} */
